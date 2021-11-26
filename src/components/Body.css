@@ -1,0 +1,244 @@
+.body {
+  padding: 40px;
+  /* font-family: cursive; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+ul {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.summary {
+  margin: 15px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #34678c;
+  font-size: 22px !important;
+}
+
+h4::after {
+  content: "";
+  display: block;
+  width: 90%;
+  background-color: #34678c;
+  height: 2px !important;
+  margin-top: 5px;
+}
+
+/* #hr {
+  margin-top: 5px;
+  width: 90%;
+  background-color: #2874f0;
+  height: 2px !important;
+  margin-top: 5px;
+} */
+
+/* .summary h4::after {
+  content: "";
+  display: block;
+  width: 8%;
+  background-color: #34678c;
+  height: 2px !important;
+  margin-top: 5px;
+} */
+
+/* .summary #hr {
+  width: 8%;
+} */
+
+p {
+  letter-spacing: 1.2px;
+  margin-top: 10px;
+}
+
+p div {
+  font-weight: 500;
+  color: #37474f;
+  font-size: 20px;
+}
+
+.details {
+  margin: auto 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details .left,
+.right {
+  flex: 0.5;
+}
+
+.details .left {
+  padding-right: 20px;
+}
+.details .right {
+  padding-left: 20px;
+}
+
+.experience {
+  margin-top: 20px;
+}
+
+.experience span,
+.projects span {
+  font-size: 17px;
+  font-style: italic;
+  color: slategray;
+}
+
+.experience li {
+  margin-bottom: 10px;
+}
+
+.skills .MuiButtonBase-root {
+  background-color: #34678c !important;
+  color: #fff !important;
+  margin: 5px !important;
+  text-transform: none !important;
+  padding: 5px 8px !important;
+  font-size: 14px !important;
+}
+/* 
+.skills .MuiButtonBase-root:nth-of-type(1),
+.MuiButtonBase-root:nth-of-type(7) {
+  margin-left: 0px !important;
+} */
+
+.skills {
+  margin-top: 20px;
+}
+
+.skills p {
+  margin-top: 20px;
+}
+
+.achievements {
+  margin-top: 25px;
+}
+
+.achievements p span {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.achievements li {
+  /* color: slategray; */
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.achievements li ul li {
+  color: slategray;
+  font-style: italic;
+  list-style-type: square;
+}
+
+.projects p .project {
+  display: flex;
+  align-items: center;
+}
+
+.projects p li {
+  margin-bottom: 10px;
+}
+
+.projects p .project .MuiSvgIcon-root {
+  color: #34678c !important;
+  margin-left: 10px;
+}
+
+.interest {
+  margin-top: 25px;
+}
+
+.interest .MuiButtonBase-root {
+  margin: 5px !important;
+  font-size: 16px !important;
+  text-transform: none !important;
+  padding: 5px 8px !important;
+}
+
+.languages {
+  margin-top: 25px;
+  font-size: 17px;
+}
+
+/* .languages div {
+  display: flex;
+  flex-direction: column;
+  list-style: circle !important;
+  padding: 5px;
+} */
+
+.languages div span:first-of-type {
+  font-size: 17px;
+  color: slategray;
+}
+
+.languages div span:nth-of-type(2) {
+  font-size: 15px;
+  color: #34678c;
+  font-style: italic;
+  margin-top: 2px;
+  font-weight: 500;
+}
+
+.division {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.division__left div {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.division__right {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  transform: translateX(-100px);
+}
+
+.courses {
+  margin-top: 25px;
+}
+
+.courses li {
+  margin-bottom: 5px;
+  color: rgb(29, 28, 28, 0.7);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.summary p {
+  font-size: 16px !important;
+  color: slategray;
+}
+
+.achievements a {
+  color: blue;
+}
+
+.courses li {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.courses .MuiSvgIcon-root {
+  color: #34678c !important;
+  margin-left: 10px;
+}
+
+b {
+  font-weight: 650 !important;
+}

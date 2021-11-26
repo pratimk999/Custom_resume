@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: 4px solid #34678c;
+  object-fit: cover;
+}
+
+.header {
+  /* display: flex;
+  justify-content: space-around; */
+  padding: auto 50px;
+}
+
+.header > .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 40px;
+  /* font-family: "Mate SC", serif; */
+}
+
+.header > .left > .name {
+  margin: auto 30px;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* .header .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: cursive;
+  align-items: flex-end;
+  font-size: 14px;
+} */
+
+.mail,
+.git,
+.phn,
+.address,
+.linkedIn {
+  display: flex;
+  align-items: center;
+}
+
+.MuiSvgIcon-root {
+  margin-right: 10px;
+  font-size: 16px !important;
+  color: whitesmoke;
+}
+
+.name p {
+  font-size: 19px;
+  color: slategray;
+  font-weight: 500;
+}
+
+.contact {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: cursive;
+  align-items: center;
+  font-size: 16px;
+  background-color: #34678c;
+  color: white !important;
+  padding: 15px;
+}
