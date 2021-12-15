@@ -120,7 +120,7 @@ function Body() {
               <Button size="small">Javascript</Button>
               <Button size="small">Node js</Button>
               <Button size="small">MongoDB</Button>
-              <Button size="small">MySql</Button>
+              {/* <Button size="small">MySql</Button> */}
             </p>
           </div>
           {/* <div className="languages">
@@ -327,19 +327,28 @@ function Body() {
                   <OpenInNewIcon />
                 </a>
               </li>
-              <li>
-                Hackerrank React
+              {/* <li>
+                Hackerrank JavaScript
                 <a
-                  href="https://drive.google.com/file/d/1Fl5qNUXEgKFC9EWczRwFRslX8SEdRNDF/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1he09jS6OnHVsD3vHu3bX_6x5DHc-Q6Eu/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <OpenInNewIcon />
+                </a>
+              </li> */}
+              <li>
+                Hackerrank Problem Solving(Intermediate)
+                <a
+                  href="https://www.hackerrank.com/certificates/ee546ab80caf"
                   target="_blank"
                   rel="noopener noreferrer">
                   <OpenInNewIcon />
                 </a>
               </li>
               <li>
-                Hackerrank JavaScript
+                Hackerrank React
                 <a
-                  href="https://drive.google.com/file/d/1he09jS6OnHVsD3vHu3bX_6x5DHc-Q6Eu/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Fl5qNUXEgKFC9EWczRwFRslX8SEdRNDF/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer">
                   <OpenInNewIcon />
@@ -396,7 +405,7 @@ function Body() {
             </li>
             <li>
               <span>
-                <b>2.5⭐</b> on{" "}
+                <b>3⭐</b> on{" "}
                 <a
                   href="https://leetcode.com/Pratim26/"
                   target="_blank"
